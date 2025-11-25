@@ -67,4 +67,16 @@ public class Funcionario {
     public void setDataDemissao(LocalDate dataDemissao) {
         this.dataDemissao = dataDemissao;
     }
+
+    @Override
+    public String toString() {
+        return "Funcionario{" +
+                "id=" + id +
+                ", pessoa=" + pessoa +
+                ", setor=" + setor +
+                ", tipo=" + tipo +
+                ", dataAdmissao=" + dataAdmissao +
+                ", dataDemissao=" + dataDemissao +
+                '}';
+    }
 }

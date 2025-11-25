@@ -1,16 +1,13 @@
-package com.example.SIGEJ.model.rh;
+package com.example.SIGEJ.model.materiais;
 
-public class EquipeManutencao {
+public class Marca {
     private Long id;
     private String nome;
-    private String turno;
 
-    public EquipeManutencao() {}
-
-    public EquipeManutencao(Long id, String nome, String turno) {
+    public Marca() {}
+    public Marca(Long id, String nome) {
         this.id = id;
         this.nome = nome;
-        this.turno = turno;
     }
 
     public Long getId() {
@@ -29,20 +26,11 @@ public class EquipeManutencao {
         this.nome = nome;
     }
 
-    public String getTurno() {
-        return turno;
-    }
-
-    public void setTurno(String turno) {
-        this.turno = turno;
-    }
-
     @Override
     public String toString() {
-        return "EquipeManutencao{" +
+        return "Marca{" +
                 "id=" + id +
                 ", nome='" + nome + '\'' +
-                ", turno='" + turno + '\'' +
                 '}';
     }
 }
