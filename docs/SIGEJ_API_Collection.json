@@ -1,0 +1,744 @@
+{
+	"info": {
+		"_postman_id": "0110675c-9ce9-4e58-98fe-459dd4de9983",
+		"name": "SIGEJ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44239213",
+		"_collection_link": "https://yanbrasileiro.postman.co/workspace/Yan-Brasileiro's-Workspace~90f55283-5384-4ee4-89a7-f6b2111ca51c/collection/44239213-0110675c-9ce9-4e58-98fe-459dd4de9983?action=share&source=collection_link&creator=44239213"
+	},
+	"item": [
+		{
+			"name": "Rh",
+			"item": [
+				{
+					"name": "Pessoas",
+					"item": [
+						{
+							"name": "Listar",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/rh/pessoas",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"rh",
+										"pessoas"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Adicionar",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/rh/pessoas",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"rh",
+										"pessoas"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Deletar",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/rh/pessoas",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"rh",
+										"pessoas"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Setores",
+					"item": [
+						{
+							"name": "Listar",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/rh/setores",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"rh",
+										"setores"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Adicionar",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/rh/setores",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"rh",
+										"setores"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Deletar",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/rh/setores",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"rh",
+										"setores"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Tipos_Funcionarios",
+					"item": [
+						{
+							"name": "Listar",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/rh/tipos-funcionario",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"rh",
+										"tipos-funcionario"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Adicionar",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/rh/tipos-funcionario",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"rh",
+										"tipos-funcionario"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Deletar",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/rh/tipos-funcionario",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"rh",
+										"tipos-funcionario"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Funcionarios",
+					"item": [
+						{
+							"name": "Listar",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/rh/funcionarios",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"rh",
+										"funcionarios"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Adicionar",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/rh/funcionarios",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"rh",
+										"funcionarios"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Deletar",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/rh/funcionarios",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"rh",
+										"funcionarios"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Equipes",
+					"item": [
+						{
+							"name": "Listar",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/rh/equipes",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"rh",
+										"equipes"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Adicionar",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/rh/equipes",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"rh",
+										"equipes"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Deletar",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/rh/equipes",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"rh",
+										"equipes"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Materiais",
+			"item": [
+				{
+					"name": "Categorias",
+					"item": [
+						{
+							"name": "Listar",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/materiais/categorias",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"materiais",
+										"categorias"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Adicionar",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"nome\": \"Ferramentas Manuais\"\n}"
+								},
+								"url": {
+									"raw": "{{url}}/materiais/categorias",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"materiais",
+										"categorias"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Deletar",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/materiais/categorias/1",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"materiais",
+										"categorias",
+										"1"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Marcas",
+					"item": [
+						{
+							"name": "Listar",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/materiais/marcas",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"materiais",
+										"marcas"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Adicionar",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"nome\": \"Tramontina\"\n}"
+								},
+								"url": {
+									"raw": "{{url}}/materiais/marcas",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"materiais",
+										"marcas"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Deletar",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/materiais/marcas/1",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"materiais",
+										"marcas",
+										"1"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Unidades",
+					"item": [
+						{
+							"name": "Listar",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/materiais/unidades",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"materiais",
+										"unidades"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Adicionar",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"sigla\": \"UN\",\n    \"descricao\": \"Unidade\"\n}"
+								},
+								"url": {
+									"raw": "{{url}}/materiais/unidades",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"materiais",
+										"unidades"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Deletar",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/materiais/unidades/1",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"materiais",
+										"unidades",
+										"1"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Produtos",
+					"item": [
+						{
+							"name": "Listar",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/materiais/produtos",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"materiais",
+										"produtos"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Adicionar",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"descricao\": \"Pá de Jardinagem\",\n    \"categoria\": {\"id\": 1},\n    \"marca\": {\"id\": 1},\n    \"unidadeMedida\": {\"id\": 1}\n}"
+								},
+								"url": {
+									"raw": "{{url}}/materiais/produtos",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"materiais",
+										"produtos"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Deletar",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/materiais/produtos/1",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"materiais",
+										"produtos",
+										"1"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Variacoes",
+					"item": [
+						{
+							"name": "Listar",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/materiais/variacoes",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"materiais",
+										"variacoes"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Adicionar",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"produto\": {\"id\": 1},\n    \"cor\": {\"id\": 1},\n    \"tamanho\": {\"id\": 1},\n    \"codigoBarras\": \"789000111\",\n    \"codigoInterno\": \"COD-01\"\n}"
+								},
+								"url": {
+									"raw": "{{url}}/materiais/variacoes",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"materiais",
+										"variacoes"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Deletar",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/materiais/variacoes",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"materiais",
+										"variacoes"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Os",
+			"item": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": ""
+		}
+	]
+}
